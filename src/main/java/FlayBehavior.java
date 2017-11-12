@@ -1,5 +1,5 @@
 package main.java;
 
-public interface Flyable {
+public interface FlayBehavior {
     void performFly();
 }

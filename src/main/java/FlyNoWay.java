@@ -1,6 +1,6 @@
 package main.java;
 
-public class FlyNoWay implements Flyable {
+public class FlyNoWay implements FlayBehavior {
     @Override
     public void performFly() {
         System.out.println("I can't fly!");

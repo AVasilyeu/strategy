@@ -1,10 +1,10 @@
 package main.java;
 
 public abstract class Duck {
-    Flyable flyable;
+    FlayBehavior flayBehavior;
 
-    public Duck(Flyable flyable) {
-        this.flyable = flyable;
+    public Duck(FlayBehavior flayBehavior) {
+        this.flayBehavior = flayBehavior;
     }
 
     public void getInfo() {
@@ -12,6 +12,6 @@ public abstract class Duck {
     }
 
     public void fly() {
-        flyable.performFly();
+        flayBehavior.performFly();
     }
 }
