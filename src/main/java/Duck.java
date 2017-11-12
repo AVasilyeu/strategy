@@ -3,8 +3,7 @@ package main.java;
 public abstract class Duck {
     FlayBehavior flayBehavior;
 
-    public Duck(FlayBehavior flayBehavior) {
-        this.flayBehavior = flayBehavior;
+    public Duck() {
     }
 
     public void getInfo() {

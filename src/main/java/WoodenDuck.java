@@ -1,7 +1,7 @@
 package main.java;
 
 public class WoodenDuck extends Duck {
-    public WoodenDuck(FlayBehavior flayBehavior) {
-        super(flayBehavior);
+    public WoodenDuck() {
+        flayBehavior = new FlyNoWay();
     }
 }
