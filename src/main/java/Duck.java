@@ -7,7 +7,7 @@ public abstract class Duck {
     }
 
     public void getInfo() {
-        System.out.println("I am main.java.Duck.");
+        System.out.println("I am Duck.");
     }
 
     public void fly() {
