@@ -1,4 +1,6 @@
-package main.java;
+package main.java.skill.impl;
+
+import main.java.skill.FlayBehavior;
 
 public class FlyNoWay implements FlayBehavior {
     @Override

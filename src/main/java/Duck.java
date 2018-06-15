@@ -1,5 +1,7 @@
 package main.java;
 
+import main.java.skill.FlayBehavior;
+
 public abstract class Duck {
     FlayBehavior flayBehavior;
 
